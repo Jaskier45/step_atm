@@ -29,9 +29,9 @@ try:
     browser.execute_script("return arguments[0].scrollIntoView(true);", chose)
     chose.click()
     
-    alr = browser.switch_to.alert
-    print(alr.text.split()[-1])
-    alr.accept()
+    # alr = browser.switch_to.alert
+    # print(alr.text.split()[-1])
+    # alr.accept()
 
 except Exception as ex:
     print(ex)
